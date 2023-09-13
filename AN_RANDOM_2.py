@@ -7,8 +7,10 @@ random_number = random.randint(int(n1), int(n2))  # Generates a random integer b
 
 while True:
     if 1 <= random_number <=5:
-        print(f"\nThe random number is between 1 and 5: {random_number}\n")
+        print(f"\nThe random number generated is: {random_number}\n")
+        print(f"...which is BETWEEN 1 AND 5\n")
         break
     else:
-        print(f"\nThe random number is between 6 and 10: {random_number}\n")
+        print(f"\nThe random number generated is: {random_number}\n")
+        print(f"...which is BETWEEN 6 AND 10\n")
         break
