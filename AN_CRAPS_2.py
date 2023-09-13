@@ -22,7 +22,7 @@ def play_the_game():
     point = r
     
     while True:
-        s = input("\nEnter <E> to exit, or enter any other key to continue: ")
+        s = input("\nPress <Enter> to exit: ")
         if len(s) > 0 and s[0] in 'Ee':
             return
         r = roll()
@@ -31,7 +31,7 @@ def play_the_game():
             print('You rolled the POINT and WON!\n')
             return
         elif r == 7:
-            print('SEVEN OUT; you lose!\n')        
+            print('SEVEN OUT; you LOSE!\n')        
             return
         
 def roll():
