@@ -7,7 +7,7 @@ while True:
     if guess2 == answer:
        print(f"\nYou are CORRECT!\n")
     elif guess2 < answer:
-       print(f"\nSorry, you are too LOW by {abs(diff)}\n")
+       print(f"\nSorry, you are TOO LOW by {abs(diff)}\n")
     elif guess2 > answer:
-        print(f"\nSorry, you are too HIGH by {abs(diff)}\n")
+        print(f"\nSorry, you are TOO HIGH by {abs(diff)}\n")
     break
