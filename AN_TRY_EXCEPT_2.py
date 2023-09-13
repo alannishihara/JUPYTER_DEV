@@ -5,7 +5,7 @@ try:
     x = float(x)
     y = input("Enter a number to be used as the denominator: ")
     y = float(y)
-    result = round((x / y), 8)
+    result = round((x / y), 10)
     print("Result of calculation: ", result)
 except ZeroDivisionError:
     print("\nError: Division by zero error!")
