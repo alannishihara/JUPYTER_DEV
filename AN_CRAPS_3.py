@@ -22,7 +22,7 @@ def play_the_game():
     point = r
     
     while True:
-        s = input("\nPress <Enter> to go to proceed: ")
+        s = input("\nPress <Enter> to proceed: ")
         if len(s) > 0 and s[0] in 'Ee':
             return
         r = roll()
